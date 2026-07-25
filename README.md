@@ -2,7 +2,7 @@
 Repositori ini berisi hasil pengerjaan Technical Test (Take Home Test) untuk posisi Junior Frontend Developer di PT Anemone Educipta Investa. Proyek ini merupakan implementasi slicing UI/UX dari wireframe low-fidelity menjadi desain high-fidelity yang interaktif dan responsif.
 
 ## Tautan Penting
-- Desain Figma: [Link Figma]
+- Desain Figma: [https://www.figma.com/design/M1FMs39r3qJ2GssBjGeG0z/Anemone-Purchase-Requests?node-id=0-1&t=1euiwHjto5rpyV1A-1]
 - Repository: [https://github.com/madejauhari/Anemone-Purchase-Requests]
 
 ## Petunjuk Menjalankan Project
