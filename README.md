@@ -10,7 +10,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di lingkungan lokal Anda:
 
 1. **Clone repositori ini ke direktori lokal Anda:**
    ```bash
-   git clone [https://github.com/madejauhari/Anemone-Purchase-Requests.git]
+   git clone https://github.com/madejauhari/Anemone-Purchase-Requests.git
    ```
 
 2. **Masuk ke direktori proyek:**
