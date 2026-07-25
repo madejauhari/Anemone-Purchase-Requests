@@ -6,33 +6,33 @@ Repositori ini berisi hasil pengerjaan Technical Test (Take Home Test) untuk pos
 - Repository: [https://github.com/madejauhari/Anemone-Purchase-Requests]
 
 ## Petunjuk Menjalankan Project
-Untuk menjalankan proyek ini secara lokal di komputer Anda, pastikan Anda telah menginstal Node.js (versi 18+ direkomendasikan).
+Ikuti langkah-langkah berikut untuk menjalankan proyek di lingkungan lokal Anda:
 
-1. Clone repositori ini ke direktori lokal Anda:
+1. **Clone repositori ini ke direktori lokal Anda:**
    ```bash
-   git clone [https://github.com/madejauhari/Anemone-Purchase-Requests]
+   git clone [https://github.com/madejauhari/Anemone-Purchase-Requests.git](https://github.com/madejauhari/Anemone-Purchase-Requests.git)
+   ```
 
-2. Masuk ke direktori proyek:
-```bash
-cd anemone-purchase-request
+2. **Masuk ke direktori proyek:**
+   ```bash
+   cd Anemone-Purchase-Requests
+   ```
 
-```
+3. **Instal semua dependensi yang dibutuhkan:**
+   ```bash
+   npm install
+   ```
 
-3. Instal semua dependensi yang dibutuhkan:
-```bash
-npm install
+4. **Jalankan server development:**
+   ```bash
+   npm run dev
+   ```
 
-```
-
-4. Jalankan server development:
-```bash
-npm run dev
-
-```
-
-5. Buka aplikasi di browser:
-Secara default, Vite akan menjalankan proyek pada port `5173`. Buka tautan berikut di browser Anda:
-`http://localhost:5173`
+5. **Buka aplikasi di browser:**
+   Secara *default*, Vite akan menjalankan aplikasi pada port `5173`. Buka tautan berikut di *browser* Anda:
+   ```text
+   http://localhost:5173
+   ```
 
 
 ## Teknologi yang Digunakan
@@ -41,25 +41,26 @@ Secara default, Vite akan menjalankan proyek pada port `5173`. Buka tautan berik
  - Google Fonts (Poppins) diimplementasikan untuk memberikan kesan brand yang membulat, ramah, dan modern.
 
 ## Struktur Komponen
+
 Proyek ini menerapkan prinsip Component-Based Architecture dengan pemisahan tanggung jawab (separation of concerns) yang jelas, mengadopsi struktur Feature-Sliced Design berskala kecil:
 
+```text
 src/
-├── assets/                         # Menyimpan aset statis (gambar, logo)
-├── components/                     # Komponen global yang dapat digunakan ulang (reusable)
-│   ├── layout/                     # Komponen pembungkus tata letak (Header, PageContainer)
-│   └── ui/                         # Komponen antarmuka dasar (Button, QuantityInput)
-├── features/                       # Modul yang dipisahkan berdasarkan fitur spesifik
-│   └── purchase-request/
-│       ├── components/             # Komponen khusus untuk fitur pemesanan
-│       │   ├── CartItem.jsx
-│       │   ├── OrderSummary.jsx
-│       │   ├── PaymentMethod.jsx
-│       │   ├── ProductCard.jsx
-│       │   └── ProductCatalog.jsx
-│       ├── data/                   # Penyimpanan mock data produk statis
-│       └── PurchaseRequestPage.jsx # Halaman utama (Container Component) pengelola state
-
-
+├── assets/                  # Menyimpan aset statis (gambar, logo)
+├── components/              # Komponen global yang dapat digunakan ulang (reusable)
+│   ├── layout/              # Komponen pembungkus tata letak (Header, PageContainer)
+│   └── ui/                  # Komponen antarmuka dasar (Button, QuantityInput)
+└── features/                # Modul yang dipisahkan berdasarkan fitur spesifik
+    └── purchase-request/
+        ├── components/      # Komponen khusus untuk fitur pemesanan
+        │   ├── CartItem.jsx
+        │   ├── OrderSummary.jsx
+        │   ├── PaymentMethod.jsx
+        │   ├── ProductCard.jsx
+        │   └── ProductCatalog.jsx
+        ├── data/            # Penyimpanan mock data produk statis
+        └── PurchaseRequestPage.jsx  # Halaman utama pengelola state
+```
 
 ## Keputusan UI/UX Utama
 1. Adaptasi Brand Identity: Mengadaptasi palet warna utama (`pink-600` dan `pink-500`) serta tipografi (Poppins) yang merujuk langsung pada website resmi Anemone Indonesia agar desain terasa lebih relevan dan memiliki brand awareness.
