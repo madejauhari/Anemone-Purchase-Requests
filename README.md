@@ -3,16 +3,14 @@ Repositori ini berisi hasil pengerjaan Technical Test (Take Home Test) untuk pos
 
 ## Tautan Penting
 - Desain Figma: [Link Figma]
-- Repository: [Link Github]
+- Repository: [https://github.com/madejauhari/Anemone-Purchase-Requests]
 
 ## Petunjuk Menjalankan Project
 Untuk menjalankan proyek ini secara lokal di komputer Anda, pastikan Anda telah menginstal Node.js (versi 18+ direkomendasikan).
 
 1. Clone repositori ini ke direktori lokal Anda:
    ```bash
-   git clone [URL_REPOSITORI_ANDA]
-
-```
+   git clone [https://github.com/madejauhari/Anemone-Purchase-Requests]
 
 2. Masuk ke direktori proyek:
 ```bash
